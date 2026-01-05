@@ -1,7 +1,8 @@
 // recommendations.js
 
 const API_CONFIG = {
-    baseUrl: 'http://localhost:8000', 
+    //baseUrl: 'http://localhost:8000',
+    baseUrl: "https://nutriapp-backend-mnnq.onrender.com",
     endpoints: {
         readings: '/api/readings',
         recommend: '/recommend_meal',
