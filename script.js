@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- API Configuration ---
     // For local testing:
-    //const API_BASE_URL = "http://127.0.0.1:8000";
+    const API_BASE_URL = "http://127.0.0.1:8000";
     // For live deployment:
-    const API_BASE_URL = "https://nutriapp-backend-mnnq.onrender.com";
+    //const API_BASE_URL = "https://nutriapp-backend-mnnq.onrender.com";
 
     // --- Recommendation Form Elements ---
     const fbsLevelInput = document.getElementById('fbs_level');

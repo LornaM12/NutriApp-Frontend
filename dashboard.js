@@ -8,10 +8,10 @@ if (!userId) {
 // Configuration for API endpoints
 const API_CONFIG = {
     // For local deployment
-    //baseUrl: 'http://localhost:8000', 
+    baseUrl: 'http://localhost:8000', 
 
     // Live deployment
-    baseUrl: "https://nutriapp-backend-mnnq.onrender.com",
+    //baseUrl: "https://nutriapp-backend-mnnq.onrender.com",
 
     endpoints: {
         sugarReadings: '/api/sugar-readings',

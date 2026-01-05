@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriApp Dashboard - Simple Profile</title>
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      background: url('your-blurred-bg.jpg') no-repeat center center/cover;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 320px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .profile-pic {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: #ddd;
+      margin: 0 auto 15px;
+    }
+
+    h3 {
+      margin: 10px 0 5px;
+    }
+
+    p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .logout-btn {
+      margin-top: 15px;
+      background: #e85c41;
+      border: none;
+      color: #fff;
+      padding: 10px;
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="profile-pic"></div>
+    <h3>Lorna Munanie</h3>
+    <p>Email: lorna@email.com</p>
+    <p>Gender: Female</p>
+    <p>HbA1c: 6.2%</p>
+    <p>Conditions: Type 2 Diabetes</p>
+    <button class="logout-btn">Log out</button>
+  </div>
+</body>
+</html>
