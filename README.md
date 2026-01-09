@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ## 📖 Overview
-**NutriApp** is an intelligent dietary recommendation system designed specifically for individuals with diabetes. Unlike generic meal planners, NutriApp utilizes a **Hybrid AI approach**—combining **Unsupervised Learning (Clustering)** with **Content-Based Filtering**—to generate personalized, safe, and medically compliant meal plans based on a user's real-time blood sugar readings.
+**NutriApp** is an intelligent dietary recommendation system designed specifically for individuals with diabetes. Unlike generic meal planners, NutriApp utilizes a **Hybrid AI approach**, combining **Unsupervised Learning (Clustering)** with **Content-Based Filtering**, to generate personalized, safe, and medically compliant meal plans based on a user's real-time blood sugar readings.
 
 The system features a **Feedback Loop** that learns from user preferences (Likes/Dislikes) to refine future recommendations, ensuring the diet is both healthy and enjoyable.
 
@@ -51,6 +51,3 @@ The application follows a **modular architecture** designed for scalability:
     * *Output:* JSON response with personalized meal options.
 
 ---
-
-nk to your LinkedIn]
-* **Email:** [Your Email]
